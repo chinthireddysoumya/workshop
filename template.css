@@ -1,0 +1,129 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30%;
+    color: blueviolet;
+}
+.home:hover{
+    background-color: aqua;
+    height: 40%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 30%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100vwq;
+    
+}
+.mountain{
+    width: 100vw;
+    height: 100vh; 
+    background-image: url("https://media.istockphoto.com/id/475797033/photo/sunlight-on-himalayan-mountain-range.jpg?s=612x612&w=0&k=20&c=GSMWx0pbDDFl-uhfVYC5mxc5XKZPOTjUs7Nvn6SjAx8=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text{
+    color: white;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.travel{
+    color: blueviolet;
+}
+.btn1{
+    color: blueviolet;
+    background-color: azure;
+    width: 10%;
+    /* height: 6%; */
+    padding: 1%;
+    transition: all 2s;
+}
+.btn1:hover{
+    transform: scale(1);
+}.box1{
+    border:2px solid blueviolet ;
+    width: 15vw;
+    height: 30vh;
+   padding-left: 8%;
+   padding-top: 3%;
+}
+.bis1{
+    width: 8vw;
+    height: 11vh;
+    
+}
+.boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+    margin-left: 10%;
+}
+body{
+    overflow-x: hidden;
+}
+.start{
+    margin-left: 2%;
+}
+.blue{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 7%;
+    padding-left: 5%;
+}
+.links{
+    color: white;
+}
+
+u{
+    width: 3%;
+    
+}
+.dots{
+    background-color: white;
+    width: 10%;
+    height: 12%;
+    border-radius: 30%;
+}
+.dot{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.contact{
+    color: white;
+}
+@media only screen and (width<600px){
+    .btn1{
+        width:30%
+    }
+   .navbar{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 2%;
+   }
+   
+   .boxes{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10%;
+}
+.box1{
+    width: 30vw;
+    height: 30vh;
+
+}
+.blue{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+    margin-left: 10%;
+}
+}
